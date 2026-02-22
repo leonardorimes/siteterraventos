@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+@font-face {
+  font-family: 'Avenir LT Pro';
+  src: url('/fonts/avenir-lt-pro/AvenirLTProHeavy.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-avenir-heavy {
+  font-family: "Avenir LT Pro", "Manrope", sans-serif;
+  font-weight: 700;
+}
